@@ -1,0 +1,43 @@
+project:
+  type: website
+
+website:
+  title: "OSCSA"
+  favicon: "logo.png"
+  page-navigation: true
+  page-footer:
+    right: 
+      - text: "Promoting Open Science in the Arab World"
+      - text: "About"
+        href: about.qmd
+      - text: "License"
+        href: license.qmd
+    left:
+      - icon: twitter
+        href: https://twitter.com/OpenSciSaudi
+        aria-label: OSCSA Twitter
+      - icon: github
+        href: https://github.com/Open-Science-Community-Saudi-Arabia
+        aria-label: OSCSA GitHub
+  search: true
+  navbar:
+    logo: logo.png
+    title: false
+    left:
+      - text: "الصفحة الرئيسية للموقع"
+        href: https://osc-ksa.com/
+      - text: "من نحنُ"
+        href: about.qmd
+    right:
+      - icon: github
+        href: https://github.com/Open-Science-Community-Saudi-Arabia
+      - icon: twitter
+        href: https://twitter.com/OpenSciSaudi
+      - text: "اللغة العربية"
+        href: https://twitter.com/OpenSciSaudi
+format:
+  html:
+    theme: cosmo
+    dir: rtl
+    lang: ar
+    css: styles.css

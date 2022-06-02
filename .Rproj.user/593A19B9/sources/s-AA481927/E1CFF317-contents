@@ -1,0 +1,55 @@
+---
+title: "الكتابة من اليمين لليسار في الكود"
+author: 
+  - name: "بتول المرزوق"
+    url: https://batool-almarzouq.netlify.app/
+    affiliation: University of Liverpool
+    affiliation-url: https://example.com/spacelysprokets
+    orcid: 0000-0002-3905-2751
+date: "2022-05-02"
+subtitle: "تعلم خطوة خطوة"
+image: "image.jpg"
+lang: ar
+draft: true
+license: "CC BY"
+toc-title: Table of contents
+toc-location: left
+google-scholar: true
+citation:
+  type: post-weblog
+  language: ar
+---
+
+## الخطوة الأولى
+
+هنا نشرح الطرق المختلفة للكتابة بالعربي في RStudio ثم التعلم من الحروف
+
+::: column-margin
+هذا الكود مهم
+:::
+
+```{r}
+#| column: screen
+#| dir: lrt
+
+library(leaflet)
+leaflet() %>%
+  addTiles() %>%
+  addMarkers(
+    lng=151.22251, 
+    lat=-33.85943, 
+    label="Mrs Macquarie's Chair"
+  ) %>% 
+  addProviderTiles(providers$CartoDB.Positron)
+
+
+
+```
+
+## الخطوة الثانية
+
+هنا نتعلم جميع الخطوات الممكنة للأنطلاق
+
+```{r}
+
+```

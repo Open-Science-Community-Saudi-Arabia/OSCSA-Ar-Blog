@@ -1,0 +1,26 @@
+{
+    "id": "550E5009",
+    "path": "~/Documents/GitHub/quarto-blog/posts/welcome/index.qmd",
+    "project_path": "posts/welcome/index.qmd",
+    "type": "quarto_markdown",
+    "hash": "50200666",
+    "contents": "",
+    "dirty": false,
+    "created": 1654101895104.0,
+    "source_on_save": false,
+    "relative_order": 7,
+    "properties": {
+        "source_window_id": "",
+        "Source": "Source",
+        "cursorPosition": "15,74",
+        "scrollLine": "7"
+    },
+    "folds": "",
+    "lastKnownWriteTime": 1654102384,
+    "encoding": "UTF-8",
+    "collab_server": "",
+    "source_window": "",
+    "last_content_update": 1654102384388,
+    "read_only": false,
+    "read_only_alternatives": []
+}
